@@ -1,0 +1,167 @@
+.logo {
+  position: relative;
+  background-color: #5b6169;
+  height: 90px;
+  width: 100%;
+}
+.test {
+  font-size: 24px;
+  font-family: "Myriad Pro";
+  background: linear-gradient(to top, silver,white); 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  line-height: 1.2;
+  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 22.1px;
+}
+.template {
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  background: linear-gradient(to top, silver,white);  
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  line-height: 1.2;
+  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+  position: absolute; 
+  top: 47.82px;
+}
+.header {
+  background: url("background.png") no-repeat; 
+}
+.li{
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  width: 10px;
+  height: 10px;
+  margin-right: 2px;
+  background-color: rgb(54, 116, 186);
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity 0.6s ease;
+  border-radius: 50%;
+}
+.carousel-indicators {
+  justify-content: end;
+  margin-right: 0%;
+  margin-left: 95%;
+}
+.carousel-cap {
+  z-index: 10;
+  padding:10% 0%;
+  color: #fff;
+}
+.about{
+  background-color: #bbbbb7;
+}
+.zag{
+  padding:5% 0;
+  color:#444343;
+  font-weight: lighter;
+  text-align: center;
+}
+.headings{
+  padding-bottom:5%;
+  text-align: center;
+}
+.progress{
+  margin-bottom: 10px;
+  height:30px;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 0rem;
+}
+.btn{
+  padding: .375rem 3.00rem;
+  border-radius:0px;
+  background-color: #73abda;
+  border-color: #73abda;
+  -webkit-text-fill-color: white; 
+}
+.btn-primary{
+  padding: .375rem 3.00rem;
+  border-radius:0px;
+  background-color: #3674ba;
+  border-color: #3674ba;
+}
+.bt{
+  position: relative;
+  margin-left: 80%;
+  border-radius: 0;
+  background-color: #3674ba;
+  border-color: #3674ba;
+  -webkit-text-fill-color: white; 
+  width:20%;
+  padding: .375rem .75rem;
+  top:-48px;
+  border:0px;
+}
+.map{
+  position: absolute;
+  width: 80%;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000;
+  text-align: center;
+  line-height: 1.8;
+  font-size: 2px;
+  background: #fff;
+}
+hr{
+  position: relative;
+  top: 12px;
+  left: 0px;
+}
+h1{
+  font-size: 48px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+  font-weight: lighter;
+  font-size: 48px;
+}
+h1+p{
+  font-weight: lighter;
+  font-size: 18px;
+  font-family: "Open Sans";
+  color: rgb(51, 85, 101);
+}
+h2{
+  font-size: 48px;
+  font-weight: lighter;
+  text-transform:uppercase;
+}
+h4{
+  font-size: 36px;
+  font-family: "Myriad Pro";
+  color: rgb(124, 124, 124);
+  text-transform:uppercase;
+}
+h5{
+  color: #afc7e3;
+  text-transform:uppercase;
+  font-size: 22px;
+  font-family: "Open Sans";
+  color: rgb(54, 116, 186);
+}
+h6{
+  font-size: 14px;
+}
+i{
+  font-size:100px;
+}
+input{
+  width:100%;
+  margin: 5px 0px;
+}
+textarea{
+  width:100%;
+  height:118px;
+  resize: none;
+}
